@@ -1,7 +1,4 @@
 ﻿using LeetBoi.Easy;
-using LeetBoi.Medium;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LeetBoi
 {
@@ -13,7 +10,7 @@ namespace LeetBoi
         {
             Console.WriteLine("Hello, World!");
 
-            var reg = Problem119.GenerateXPascal(30);
+            var reg = Problem1.TwoSum(new int[] { 3,2,4 }, 6);
 
 
         }
